@@ -11,7 +11,9 @@
       "@angular/router": ["../../node_modules/@angular/router"],
       "rxjs/*": ["../../node_modules/rxjs/*"],
       "environments/environment": ["./src/common/environment"],
-      "@nationalbankbelgium/stark-core": ["."]
+      "@nationalbankbelgium/stark-core": ["."],
+      "core-js/*" : ["../../node_modules/core-js/*"],
+      "zone.js/*": ["../../node_modules/zone.js/*"]
     },
     "outDir": "../../dist/packages/stark-core"
   },
